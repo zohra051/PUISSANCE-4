@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/zharrat/Documents/PROJET C++ GENIE LOGICIEL/JALON 1/src/Plateau.hpp
+
+/etudiants/zharrat/Documents/PROJET C++ GENIE LOGICIEL/JALON 1/src/main.cpp
+iostream
+-
+Plateau.hpp
+/etudiants/zharrat/Documents/PROJET C++ GENIE LOGICIEL/JALON 1/src/Plateau.hpp
+
