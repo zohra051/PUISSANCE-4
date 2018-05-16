@@ -23,10 +23,22 @@ ajouterVoisin();
 Plateau: utilisation de jeton
 -Plateau : Tableau 2D
 -Pile : Array
+ajouterJeton();
+positionJeton();
+afficherPlateau();
+verificationJeton();
+verification();
+    gagnant/perdant/egalite
 
 Joueur:
 -Couleur
 -Tour : flag
+placerJeton();
+getCouleur();
+setCouleur();
+notreTour();
+abandonner();
+
 
 Jeu:
 -Joueur : 2
