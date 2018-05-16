@@ -43,4 +43,7 @@ abandonner();
 Jeu:
 -Joueur : 2
 -Plateau 
+lancerPartie();
+declarerGagnant();
+
 
