@@ -47,3 +47,8 @@ lancerPartie();
 declarerGagnant();
 
 
+backlog : 
+fonctionalite
+diaagramme classe
+issues : docs,test
+
