@@ -11,6 +11,7 @@ add_executable( main.out src/main.cpp
 	src/Couleur.cpp
 	src/Jeton.cpp
 	src/Plateau.cpp
+	src/Joueur.cpp
 )
 target_link_libraries( main.out ${PKG_LIBRARIES} )
 
@@ -19,5 +20,7 @@ add_executable( main_test.out src/main_test.cpp
 	src/Couleur.cpp
 	src/Jeton.cpp
 	src/Jeton_test.cpp
+	src/Joueur.cpp
+	src/Joueur_test.cpp	
 )
 target_link_libraries( main_test.out ${PKG_LIBRARIES} )

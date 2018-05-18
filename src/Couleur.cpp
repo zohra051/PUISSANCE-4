@@ -1,6 +1,23 @@
 #include <iostream>
 #include "Couleur.hpp"
 
+/*bel affichage de la couleur*/
+std::string afficherCouleur(Couleur c)
+{
+	switch(c){
+			case LIBRE : return "Libre";
+				break;
+			case ROUGE : return"Rouge";
+				break;
+			case JAUNE : return "Jaune";
+				break;
+			case PERSONNE : return "Personne";
+				break;
+			}
+}
+
+
+
 /* Opérateur sortie */
 std::ostream& operator<<(std::ostream& os,const Couleur& couleur)
 {
