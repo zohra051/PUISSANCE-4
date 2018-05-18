@@ -7,12 +7,17 @@
 class Jeu 
 {
 	private:
+		/*Joueur 1*/
 		Joueur joueur1;
+		/*Joueur 2*/
 		Joueur joueur2;
+		/*Platea du jeu*/
 		Plateau plateau;
-	public
+	public:
+		/*Constructor*/
 		Jeu();
-	
+		/*Début de partie*/
+		void commencerPartie();
 };
 
 

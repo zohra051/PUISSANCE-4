@@ -12,6 +12,7 @@ add_executable( main.out src/main.cpp
 	src/Jeton.cpp
 	src/Plateau.cpp
 	src/Joueur.cpp
+	src/Jeu.cpp
 )
 target_link_libraries( main.out ${PKG_LIBRARIES} )
 

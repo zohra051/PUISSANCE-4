@@ -24,11 +24,11 @@ class Plateau
 		void afficherPlateau() const;
 		/*Ajouter un jeton sur le plateau*/
 		void ajouterJeton(int place,Couleur couleur);
+		/*Tableau isPlein ou non*/
+		bool isPlein();
+		
 		
 		
 };
 
 #endif
-
-
-//Nutellafoot Nutellatablier Footnutella
