@@ -19,7 +19,7 @@ TEST(GroupJeton, TestJeton_2)
 {
 	Jeton jeton;
 	Couleur couleur = ROUGE;
-	jeton.setCouleur(couleur);
+	jeton.setCouleurJeton(couleur);
 	std::ostringstream oss;
 	oss << jeton;
 	CHECK_EQUAL(oss.str(),"R");
@@ -31,7 +31,7 @@ TEST(GroupJeton, TestJeton_3)
 {
 Jeton jeton;
 	Couleur couleur = JAUNE;
-	jeton.setCouleur(couleur);
+	jeton.setCouleurJeton(couleur);
 	std::ostringstream oss;
 	oss << jeton;
 	CHECK_EQUAL(oss.str(),"J");
@@ -43,7 +43,7 @@ TEST(GroupJeton, TestJeton_4)
 {
 	Jeton jeton;
 	Couleur couleur = PERSONNE;
-	jeton.setCouleur(couleur);
+	jeton.setCouleurJeton(couleur);
 	std::ostringstream oss;
 	oss << jeton;
 	CHECK_EQUAL(oss.str(),"X");

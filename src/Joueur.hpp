@@ -20,6 +20,8 @@ class Joueur
 		Joueur(std::string prenom);
 		/*Retourne le prénom du joueur*/
 		std::string getPrenom() const;
+		/*modifie le prénom du joueur*/
+		void setPrenom(std::string prenom);
 		/*Retourne la couleur du joueur*/
 		Couleur getCouleur() const;
 		/*Modifie la couleur du joueur*/

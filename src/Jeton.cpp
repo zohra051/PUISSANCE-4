@@ -7,13 +7,13 @@ _Couleur(LIBRE)
 {}
 
 /*Retourne la couleur du jeton*/
-Couleur Jeton::getCouleur() const
+Couleur Jeton::getCouleurJeton() const
 {
 	return _Couleur;
 }
 
 /*Change la précédente couleur*/
-void Jeton::setCouleur(Couleur couleur)
+void Jeton::setCouleurJeton(Couleur couleur)
 {
 	_Couleur=couleur;
 }

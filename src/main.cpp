@@ -4,8 +4,23 @@
 int main()
 {
 	Plateau p;
+	p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
+	p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
+		p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
+		p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
+		p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
+	
+		p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
+		p.ajouterJeton(3,ROUGE);
+	p.ajouterJeton(3,JAUNE);
 	p.afficherPlateau();
-	Joueur j("Zohra");
-	j.afficherJoueur();
+
+
 	return 0;
 }

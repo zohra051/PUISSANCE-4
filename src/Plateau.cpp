@@ -13,6 +13,13 @@ Plateau::Plateau()
 	
 	_nbJeton.fill(0);
 }
+
+/*Retourne THE jeton sur le plateau */
+Jeton Plateau::getJetonPlateau(int colonne,int ligne)
+{
+	return _Plateau[colonne][ligne];
+}
+
 /*Affichage du Plateau de jeu (console) */
 void Plateau::afficherPlateau() const
 {
@@ -25,4 +32,25 @@ void Plateau::afficherPlateau() const
 		}	
 		std::cout<<std::endl;
 	}	
+}
+
+/*Ajouter un jeton sur le plateau*/
+void Plateau::ajouterJeton(int place,Couleur couleur)
+{
+	if(_nbJeton[place] < LIGNE) 
+	{
+		if(place>=0 && place<=LIGNE-1)
+		{
+			_Plateau[place][LIGNE-_nbJeton[place]-1].setCouleurJeton(couleur);
+			_nbJeton[place]++;
+		}
+		else
+		{
+			throw std::string("INDICE INCORECTE!");
+		}
+	}
+	else 
+	{
+		throw std::string("PAS DE PLACE !");		
+	}
 }

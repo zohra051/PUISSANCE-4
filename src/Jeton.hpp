@@ -13,9 +13,9 @@ class Jeton
 		/*Constructor : Jeton par défaut mis à LIBRE*/
 		Jeton();
 		/*Retourne la couleur du jeton*/
-		Couleur getCouleur() const;
+		Couleur getCouleurJeton() const;
 		/*Change la précédente couleur*/
-		void setCouleur(Couleur couleur);
+		void setCouleurJeton(Couleur couleur);
 		
 		/* Opérateur sortie */
 		friend std::ostream& operator<<(std::ostream& os,const Jeton& jeton);

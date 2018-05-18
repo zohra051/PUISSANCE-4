@@ -21,6 +21,8 @@ add_executable( main_test.out src/main_test.cpp
 	src/Jeton.cpp
 	src/Jeton_test.cpp
 	src/Joueur.cpp
-	src/Joueur_test.cpp	
+	src/Joueur_test.cpp
+	src/Plateau.cpp
+	src/Plateau_test.cpp	
 )
 target_link_libraries( main_test.out ${PKG_LIBRARIES} )

@@ -18,6 +18,12 @@ std::string Joueur::getPrenom() const
 	return _prenom;
 }
 
+/*modifie le prénom du joueur*/
+void Joueur::setPrenom(std::string prenom)
+{
+	_prenom = prenom;
+}
+
 /*Retourne la couleur du joueur*/
 Couleur Joueur::getCouleur() const
 {
