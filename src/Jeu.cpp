@@ -1,3 +1,5 @@
+//HARRAT Jimmy, DENIS Jimmy
+
 #include "Jeu.hpp"
 #include <iostream>
 /*Constructor*/
@@ -14,16 +16,16 @@ void Jeu::commencerPartie()
 	std::cout<<"Joueur 1 : ";
 	std::cin>>entrer;
 	joueur1.setPrenom(entrer);
-	 
+
 	std::cout<<"Joueur 2 : ";
 	std::cin>>entrer;
 	joueur2.setPrenom(entrer);
-	
+
 	std::cout<<std::endl;
-	
+
 	joueur1.setCouleur(ROUGE);
 	joueur2.setCouleur(JAUNE);
-	
+
 
 	while(!plateau.isPlein())
 	{
@@ -46,7 +48,7 @@ void Jeu::commencerPartie()
 			}
 			std::cout<<std::endl;
 		}
-		
+
 		flag = false;
 		while(flag == false)
 		{
@@ -64,8 +66,8 @@ void Jeu::commencerPartie()
 				std::cout<<e<<std::endl;
 			}
 			std::cout<<std::endl;
-		}	
-	}	
-	
-		
+		}
+	}
+
+
 }

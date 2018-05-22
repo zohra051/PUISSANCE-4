@@ -1,3 +1,5 @@
+//HARRAT Zohra, DENIS Jimmy
+
 #include <iostream>
 #include "Jeton.hpp"
 

@@ -26,6 +26,18 @@ class Plateau
 		void ajouterJeton(int place,Couleur couleur);
 		/*Tableau isPlein ou non*/
 		bool isPlein();
+		/* Verification si 4 jeton aligné sur une Ligne */
+		bool parcourtLigne(int x, int y, Jeton jeton);
+		/* Verification si 4 jeton aligné sur une Colonne */
+		bool parcourtColonne(int x, int y, Jeton jeton);
+		/* Verification si 4 jeton aligné sur une Diagonale de droite (bas vers haut) */
+		bool parcourtDiagonaleD(int x, int y, Jeton jeton);
+		/* Verification si 4 jeton aligné sur une Diagonale de gauche (haut vers bas) */
+		bool parcourtDiagonaleG(int x, int y, Jeton jeton);
+		/* Fonction si le joueur est gagnant */
+		bool isWinner(int x, int y, Jeton jeton);
+		/*Verifier s'il y a un gagnant, et annoncer le perdant, et si aucun : egalite. */
+		Couleur verificationGagnant(int place, Jeton jeton); 
 		
 		
 		

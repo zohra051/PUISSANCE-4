@@ -1,3 +1,5 @@
+/*HARRAT Zohra, DENIS Jimmy */
+
 #include <iostream>
 #include "Couleur.hpp"
 
@@ -32,7 +34,7 @@ std::ostream& operator<<(std::ostream& os,const Couleur& couleur)
 				break;
 			}
 		return os;
-	
+
 }
 
 /*Opérateur entrée */
@@ -44,10 +46,10 @@ std::istream& operator>>(std::istream& is,Couleur& couleur)
 			break;
 		case 'J' : couleur = JAUNE;
 			break;
-		case 'X' : couleur = PERSONNE; 
+		case 'X' : couleur = PERSONNE;
 			break;
 		default: couleur = LIBRE;
 	}
 	return is;
-	
+
 }
